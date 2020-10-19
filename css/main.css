@@ -1,12 +1,12 @@
 body{
-    font-family: Arial, Helvetica, sans-serif;
+    font: 15px/1.5 Arial, Helvetica,sans-serif;
     padding: 0;
     margin: 0;
-    background-color:#ffffff;
+    background-color:#f4f4f4;
 }
-
+/*global*/
 .container{
-    width: 97%;
+    width: 80%;
     margin:auto;
     overflow:hidden;
 }
@@ -14,10 +14,21 @@ ul{
     margin: 0;
     padding: 0;
 }
+
+.button_1{
+    height: 38px;
+    background: #f0e001;
+    border: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #000000;
+
+}
+
 header{
     background-color: #000000;
     color: #ffffff;
-    padding-top:90px;
+    padding-top:70px;
     min-height: 70px;
     border-bottom:#fddc20 3px solid;
 }
@@ -59,8 +70,50 @@ header a:hover{
 }
 
 /*showcase*/
-#showcase{
-    min-height: 700px;
-    background:url('../images/bmw-3533813_1920.jpg') no-repeat 0 -400px;
 
+#showcase{
+    min-height: 800px;
+    background:url('../images/bmw-3533813_1920.jpg') no-repeat 0 -400px;
+    text-align: left;
+    color:#000000
+}
+
+#showcase h1{
+    margin-top: 200px;
+    font-size: 55px;
+    margin-bottom: 10px;
+}
+
+#showcase p{
+    font-size: 25px;
+    color:#f0e001;
+}
+
+/*quotation*/
+
+#quotation{
+    padding: 15px;
+    color:#ffffff;
+    background: #000000;
+}
+
+#quotation input[type="email"]{
+    padding: 4px;
+    height: 25px;
+    width: 250px;
+}
+
+#boxes{
+    margin-top: 20px;
+}
+
+#boxes .box{
+    float: left;
+    text-align: centre;
+    width: 30%;
+    padding: 20px;
+}
+
+#boxes .box img{
+    width: 200px;
 }
