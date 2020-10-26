@@ -1,0 +1,9 @@
+@import url("./main.css");
+
+footer{
+    padding: 20px;
+    margin-top: 345px;
+    color: #f0e001;
+    background-color: #000000;
+    text-align: center;
+}
