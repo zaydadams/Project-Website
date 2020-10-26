@@ -1,0 +1,20 @@
+@import url("./main.css");
+
+
+
+body{
+    background: url("../images/porsche.jpg")no-repeat 0 -400px;
+    min-height: 800px;
+    text-align: left;
+    color: beige;
+
+}
+
+
+footer{
+    padding: 20px;
+    margin-top: 315px;
+    color: #f0e001;
+    background-color: #000000;
+    text-align: center;
+}
