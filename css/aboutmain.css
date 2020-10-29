@@ -1,5 +1,14 @@
 @import url("main.css");
 
+.container1{
+    padding: 20px;
+    margin: 30px;
+    font-size: large;
+}
+
+.main{
+    padding: 0px;
+}
 footer{
     padding: 20px;
     margin-top: 500px;
