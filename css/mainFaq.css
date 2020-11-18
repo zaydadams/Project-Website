@@ -2,7 +2,7 @@
 
 
 body{
-    background: url("../images/porsche.jpg")no-repeat 0 -400px;
+    background: url("../images/porsche.jpg")no-repeat 0 -326px;
     min-height: 500px;
     text-align: left;
     color: beige;
@@ -12,14 +12,14 @@ body{
     padding-top: 16px;
 }
 .container1{
-    margin: 56px;
-    padding: 40px;
-    font-size: larger;
+    text-align: center;
+    margin: 140px;
+    font-size: x-large;
 }
 
 footer{
     padding: 20px;
-    margin-top: 200px;
+    margin-top: 345px;
     color: #f0e001;
     background-color: #000000;
     text-align: center;
