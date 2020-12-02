@@ -18,9 +18,11 @@ body{
 }
 
 footer{
-    padding: 20px;
-    margin-top: 380px;
+    position: fixed;
+    left: 0; 
+    bottom: 0;
     color: #f0e001;
     background-color: #000000;
     text-align: center;
+    width: 100%;
 }

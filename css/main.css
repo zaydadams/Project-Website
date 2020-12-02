@@ -138,6 +138,21 @@ header a:hover{
 
 }
 
+@media screen and (max-width:959px){
+    #container{
+        width:100%;
+    }
+    #boxes{
+        width:100%;
+    }
+    #boxes .box{
+        width: 70%;
+    }
+    #boxes.box img{
+        width: 70%;
+    }
+}
+
 
 footer{
     padding: 20px;
